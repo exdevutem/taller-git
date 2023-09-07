@@ -23,6 +23,9 @@ Es un software FOSS #footnote[Free and Open Source Software, o Software libre y 
 - *pull*: Descarga cambios de un repositorio remoto. Es el opuesto de push.
 
 #pagebreak()
+#outline(indent: 2em)
+#outline(title: [Lista de figuras], target: figure.where(kind: image))
+#pagebreak()
 
 #include "src/instalacion.typ"
 #include "src/post-install.typ"
