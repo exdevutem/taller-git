@@ -1,4 +1,5 @@
 #import "template.typ": template
+#import "@preview/big-todo:0.2.0": *
 
 #show: template
 
@@ -26,3 +27,6 @@ Es un software FOSS #footnote[Free and Open Source Software, o Software libre y 
 #include "src/instalacion.typ"
 #include "src/post-install.typ"
 #include "src/first-steps.typ"
+
+#pagebreak()
+#todo_outline
