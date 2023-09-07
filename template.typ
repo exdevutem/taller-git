@@ -1,4 +1,6 @@
 #let template(doc) = [
+    #set text(lang: "es")
+
     #show link: underline
 
     #set raw(block: true)
