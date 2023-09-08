@@ -8,7 +8,7 @@ Para el caso mío, mi prompt me indica la siguiente información, visible en @re
 - La hora al momento de crearse el prompt. Las 17:00 en este caso.
 
 #figure(
-  image("../assets/directory-list.png"),
+  image("../assets/first-steps/directory-list.png"),
   caption: [Lista de archivos de este repositorio.],
 ) <repo>
 
@@ -17,23 +17,23 @@ La forma en que este prompt sabe que estamos en un repositorio de git, es por la
 Bajo este punto, el repositorio de esta guía no ha recibido ningún cambio, por lo que documentaré el proceso en que este primer cambio será hecho. Como referencia de la estructura de este directorio, se adjunta @tree
 
 #figure(
-  image("../assets/tree.png"),
+  image("../assets/first-steps/tree.png"),
   caption: [Estructura del repositorio que mantiene este documento.],
 ) <tree>
 
 Lo primero que haré será verificar el estado del directorio con el comando `git status`. Este comando me muestra todos los archivos creados, modificados o borrados del directorio *que aún no han sido guardados en un commit*.
 
 #figure(
-  image("../assets/status.png"),
+  image("../assets/first-steps/status.png"),
   caption: [Output del comando status de git],
 ) <status>
 
 Para el caso de @status, ningún archivo ha sido agregado al repositorio, por lo que iniciaré agregando los archivos `.typ` con el comando `git add *.typ`, y ver como esto modifica el output de `git status`.
 
-El resultado puede verse en @status2. Comparando con @status, vemos que git reconoce los archivos `main.typ` y `template.typ` como archivos que van a ser cometidos (apareciendo como verde). Los archivos del directorio `../assets` y el archivo `main.pdf` no han sido sido agregados al repositorio (apareciendo de color rojo).
+El resultado puede verse en @status2. Comparando con @status, vemos que git reconoce los archivos `main.typ` y `template.typ` como archivos que van a ser cometidos (apareciendo como verde). Los archivos del directorio `../assets/first-steps` y el archivo `main.pdf` no han sido sido agregados al repositorio (apareciendo de color rojo).
 
 #figure(
-  image("../assets/new status.png"),
+  image("../assets/first-steps/new status.png"),
   caption: [Output del comando status tras agregar los archivos `.typ`],
 ) <status2>
 
@@ -42,7 +42,7 @@ Comúnmente verás gente que, al momento de agregar archivos, ejecutará el coma
 Con estos cambios agregados, lo siguiente a hacer será `cometer` estos cambios a mi repositorio con el comando `git commit -m "Commit inicial"`. El resultado es una lista de los cambios que se han hecho en comparación al último commit hecho. En este caso, se ha creado el archivo `main.typ`, y el archivo `template.typ`.
 
 #figure(
-  image("../assets/commit inicial.png"),
+  image("../assets/first-steps/commit inicial.png"),
   caption: [Output del comando `git commit`.],
 ) <commit>
 
@@ -50,25 +50,25 @@ El último paso típico que nos queda es empujar nuestro cambios a nuestro repos
 
 
 #figure(
-  image("../assets/instrucciones github.png"),
+  image("../assets/first-steps/instrucciones github.png"),
   caption: [Instrucciones provistas por GitHub al crear un repositorio vacío.],
 ) <instrucciones>
 
 En nuestro caso, nuestro repositorio no está vacío, y ya contiene el primer commit, por lo que podemos saltarnos varios de estos pasos y simplemente ingresar los comandos de agregar un repositorio remoto y empujar los cambios, tal y como se ve en @push
 
 #figure(
-  image("../assets/push.png"),
+  image("../assets/first-steps/push.png"),
   caption: [Output al momento de agregar un 'remoto' nuevo, y empujar los cambios],
 ) <push>
 
 Finalmente, a modo de resumen, se agrega la línea de comandos al momento de hacer este proceso entero. Este nuevo commit consta de todos los cambios hechos hasta ahora, que incluyen toda la sección de primeros pasos.
 
 #figure(
-  image("../assets/proceso resumido.png"),
+  image("../assets/first-steps/proceso resumido.png"),
   caption: [Output de terminal al momento de seguir todo el procedimiento descrito aquí, con los cambios creados hasta ahora.],
 ) <resumen>
 
 #figure(
-  image("../assets/commit avanzado.png"),
+  image("../assets/first-steps/commit avanzado.png"),
   caption: [Si no se especifica un mensaje corto, Git abrirá el editor por defecto para crear uno más completo, tal y como se muestra en esta figura.],
 ) <commit-avanzado>
