@@ -9,9 +9,9 @@ $ git config --global user.name "Rafael Morales"
 $ git config --global user.email "rmorales@utem.cl"
 ```
 
-== Llaves de SSH en Linux y Mac
+== Llaves de SSH en Linux, Mac y Windows
 
-Adicionalmente, y pensando que ya cuentes con una cuenta de github, se recomienda que agregues una llave de SSH para trabajar con github (en el caso de Linux/Mac), o que instales el ayudante de credenciales de Git para Windows.
+Adicionalmente, y pensando que ya cuentes con una cuenta de github, se recomienda que agregues una llave de SSH para trabajar con github. Existen otros métodos para trabajar HTTPS, pero los desconozco, y realmente pienso que el uso de SSH es más sencillo. Esto debería funcionar igual para todas las plataformas, *pensando que utilizes git bash* en windows. Si seguiste el proceso de instalación por defecto según se describió en @windows-install, deberías contar con un programa para SSH como parte del kit que se instala con git bash. Para el caso de Linux, SSH suele venir instalado en todas las distros, y para Mac, siempre viene instalado.
 
 Esto puede hacerse desde la pantalla de configuración, en la sección de "Llaves SSH y GPG", según se ve en @settings y @ssh-keys. Los pasos para agregar una nueva llave SSH son los siguientes:
 
