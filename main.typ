@@ -30,11 +30,18 @@ Es un software FOSS #footnote[Free and Open Source Software, o Software libre y 
 #include "src/instalacion.typ"
 #include "src/post-install.typ"
 #include "src/first-steps.typ"
-
 #pagebreak()
+
+#include "src/branches.typ"
+#pagebreak()
+
 #include "src/issues.typ"
-#include "src/pull-request.typ"
-#include "src/merge-conflicts.typ"
-
 #pagebreak()
+
+#include "src/pull-request.typ"
+#pagebreak()
+
+#include "src/merge-conflicts.typ"
+#pagebreak()
+
 #todo_outline
