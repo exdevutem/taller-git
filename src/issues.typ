@@ -1,4 +1,4 @@
-= Issues
+= Issues <issues>
 
 En github, un Issue se refiere a un problema que se haya encontrado con el proyecto, del cual no se ha creado cambios aún. Estos varían enormemente; podrías levantar un Issue para informar de un bug que hayas encontrado en el programa, para solicitar que se implemente una nueva característica, para discutir el curso de acción del proyecto, para solicitar el cambio o eliminación de alguna característica, #link("https://github.com/twitter/the-algorithm/issues?page=26&q=is%3Aissue+is%3Aclosed")[para webiar a Elon Musk], etc, etc.
 
